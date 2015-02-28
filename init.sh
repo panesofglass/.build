@@ -2,7 +2,7 @@
 echo "Initializing ..."
 cp build.cmd ../
 cp build.sh ../
-if [ ! -f ../build.fsx && ! -f ../build.template ]; then
+if [ ! -f ../build.fsx ]; then
     cp build.template ../
     cp init.fsx ../
 fi
